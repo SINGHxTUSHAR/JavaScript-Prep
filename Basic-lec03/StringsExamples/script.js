@@ -29,3 +29,10 @@ let data1 = "tushar singh rawat hai mera naam!!!!!!!!!";
 console.log(data1.slice(0,12));
 console.log(data1.charAt(0)); // Output: t
 console.log(data1.indexOf("rawat")); // Output: 16 ending idx
+
+
+/////////creating username from the input string
+let userName = prompt("Enter your name:");
+let normalizedName = userName.replace(/\s+/g, "").trim();
+let newUserName = "@" + normalizedName + normalizedName.length;
+console.log(`Your username is: ${newUserName}`); // Output: Your username is: @tushar singh rawat hai mera naam!!!!!!!!!27
