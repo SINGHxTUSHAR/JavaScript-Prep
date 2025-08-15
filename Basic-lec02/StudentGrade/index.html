@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <h1>Student Grades</h1>
+        <div class="container">
+            <form id="gradeForm">
+                <label for="hindi">Enter your marks: Hindi</label>
+                <input type="number" id="hindi" name="hindi" min="0" max="100" required>
+
+                <label for="english">Enter your marks: English</label>
+                <input type="number" id="english" name="english" min="0" max="100" required>
+
+                <label for="sst">Enter your marks: SST</label>
+                <input type="number" id="sst" name="sst" min="0" max="100" required>
+
+                <label for="science">Enter your marks: Science</label>
+                <input type="number" id="science" name="science" min="0" max="100" required>
+
+                <label for="maths">Enter your marks: Maths</label>
+                <input type="number" id="maths" name="maths" min="0" max="100" required>
+
+                <button type="submit">Calculate Grade</button>
+            </form>
+            <div id="result"></div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
